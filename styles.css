@@ -1,0 +1,99 @@
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Azul claro (AliceBlue) */
+    color: #333; /* Color del texto en gris oscuro para un buen contraste */
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #1e90ff; /* Azul intenso (DodgerBlue) */
+    color: #fff; /* Texto blanco */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilo del título principal */
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #1e90ff; /* Azul intenso (DodgerBlue) */
+    text-decoration: none; /* Quita el subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón por encima */
+}
+
+/* Estilo del contenido principal */
+main {
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el área de contenido */
+    border: 1px solid #ddd; /* Borde gris claro */
+    margin: 20px auto;
+    max-width: 800px; /* Ancho máximo para la sección de contenido */
+}
+
+/* Estilo para las pestañas */
+nav ul.tabs {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f8ff;
+    border-bottom: 2px solid #1e90ff;
+}
+
+nav ul.tabs li {
+    margin: 0;
+}
+
+nav ul.tabs li a {
+    display: block;
+    padding: 10px 20px;
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul.tabs li a:hover {
+    background-color: #e0f7ff; /* Azul claro al pasar el ratón */
+    border-radius: 4px;
+}
+
+/* Estilo de las secciones de productos */
+.product {
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #1e90ff; /* Azul intenso (DodgerBlue) */
+    color: #fff; /* Texto blanco */
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
